@@ -1,0 +1,111 @@
+.formed{
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Header ."
+      ". Sign-In ."
+      ". Footer .";
+  }
+  
+  .Header { 
+    grid-area: Header; 
+    margin: auto;
+    justify-content: space-evenly;
+}
+  
+  .Sign-In { 
+    grid-area: Sign-In; 
+    outline-style: solid;
+    outline-width: .2px;
+    outline-offset: 35px;
+ 
+}
+  
+  .Footer { 
+    grid-area: Footer;
+    margin-top: 50px;
+    font-size: 16;
+ }
+
+ .create{
+    text-align: center;
+    background-color: rgba(211, 211, 211, .75);
+    
+ }
+ .button {
+    background-color: orange;
+    border: 1px;
+    color: black;
+    padding: 2px 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    outline-style: solid;
+    outline-width: .2px;
+    outline-offset: px;
+  }
+  .forgot-password{
+    margin-left: 330px;
+   
+    
+  }
+  
+  
+  li{
+   
+    display: inline;
+    margin-right: 30px;
+    
+   
+    
+  }
+  ul{
+    text-align: center;
+    
+  }
+  
+  a{
+    text-decoration: none;
+  }
+ 
+  img{
+    
+    width: 50%;
+  }
+  .input-group{
+    margin-bottom: 45px;
+  }
+.Header{
+    justify-content: ;
+}
+.muy{
+   
+}
+.button2 {
+    background-color: rgba(211, 211, 211, 0);
+    border: px;
+    color: black;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    
+    
+  }
+  .create{
+    outline-style: solid;
+    outline-width: .2px;
+    outline-offset: px;
+  }
